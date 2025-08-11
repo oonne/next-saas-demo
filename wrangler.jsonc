@@ -75,15 +75,15 @@
   "d1_databases": [
     {
       "binding": "NEXT_TAG_CACHE_D1",
-      "database_name": "cloudflare-workers-nextjs-saas",
-      "database_id": "94dd1269-a29c-4621-adff-1762d1af6926",
+      "database_name": "next-saas-demo",
+      "database_id": "5569ea13-adde-4d1b-9f59-b76b363baaa0",
       "migrations_dir": "src/db/migrations"
     }
   ],
   "kv_namespaces": [
     {
       "binding": "NEXT_INC_CACHE_KV",
-      "id": "c6f2b077e0a34a84b3598558eb833055"
+      "id": "6ee9d0f6edb84febaf8e4f9dc8db81e0"
     }
   ]
 }

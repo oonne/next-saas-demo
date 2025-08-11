@@ -1,0 +1,21 @@
+{
+  "files.associations": {
+    "wrangler.json": "jsonc"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "npm.packageManager": "pnpm",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 100, // 超过最大值换行
+  // 控制相关文件嵌套展示
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.env": "$(capture).env.*",
+    ".dev.vars": ".dev.vars.example",
+    ".eslintrc.cjs": ".eslintignore",
+    ".prettierrc": ".prettierignore"
+  },
+  "terminal.integrated.scrollback": 10000
+}
